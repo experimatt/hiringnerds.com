@@ -4,6 +4,8 @@
   "description": "A podcast about job searching and hiring",
   "main": "index.js",
   "scripts": {
+    "dev": "open index.html",
+    "build-styles": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
